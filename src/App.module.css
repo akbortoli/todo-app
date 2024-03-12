@@ -5,7 +5,7 @@
   position: relative;
 }
 
-.addTodoContainer {
+.addTaskContainer {
   display: flex;
   flex: 1;
   justify-content: space-between;
@@ -15,7 +15,7 @@
   margin-bottom: 2.3125rem;
 }
 
-.addTodoInput {
+.addTaskInput {
   background-color: var(--gray-500);
   color: var(--gray-100);
   border: 1px solid var(--gray-700);

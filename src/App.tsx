@@ -11,10 +11,10 @@ function App() {
       <Header />
 
       <section className={styles.content}>
-        <div className={styles.addTodoContainer}>
-          <input className={styles.addTodoInput} placeholder="Adicione uma nova tarefa" />
+        <div className={styles.addTaskContainer}>
+          <input className={styles.addTaskInput} placeholder="Add a new task" />
           <Button type="button">
-            Criar
+            Add
             <PlusCircle size={16} weight="bold" />
           </Button>
         </div>
